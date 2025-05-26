@@ -1,6 +1,8 @@
-# Democratic Resilience in the Twenty-First Century. Search for an Analytical Framework and Explorative Analysis” #
+# Democratic Resilience in the Twenty-First Century. Search for an Analytical Framework and Explorative Analysis #
 
-This repository makes the Democratic Resilience Capacity (DRC) Index available for future research and use. Please also see the introductory paper published at Political Studies by Aurel Croissant and Lars Lott
+This repository makes the Democratic Resilience Capacity (DRC) Index available for future research and use. Please also see the introductory paper published at Political Studies 
+
+Croissant, Aurel & Lott, Lars, (2025). Democratic Resilience in the Twenty-First Century. Search for an analytical framework and explorative analysis. Political Studies. doi:10.1177/00323217251345779.
 
 ## Codebook ##
 
@@ -12,10 +14,8 @@ Scale: Interval, from low to high (0-1)
 Source: inst_dim polpar_dim civsoc_dim, polcom_dim
 Aggregation: The Democratic Resilience Capacity Index is formed by taking the average of, on the one hand, the indices measuring the macro-institutional dimensions (inst_dim), the political actors’ dimensions (polpar_dim), the civic culture and civil society dimensions (civsoc_dim), and the political community of citizens dimensions (polcom_dim), and, on the other hand, the four-way multiplicative interaction between those indices. The question of whether to use multiplicative or additive indices has been debated in democracy measurement studies for decades, without conclusive results (see Coppedge et al. 2020, 97-101; Goertz 2006: 111-15; Treier and Jackman 2008; Przeworski et al. 2000; Munck 2009; Bollen 1980; Coppedge and Reinicke 1990). Since both the necessary conditions and the substitutable logic have reasoned support, and since both have evidently the virtue of discriminating at different ends of the spectrum, we use the average between the two as our preferred solution to the aggregation of a complex concept, such as resilience capacity. The index is aggregated using this formula:
 
-DRC\ Index\ =\ 0.5\ \ast\ aDRC\ +\ 0.5\ \ast\ mDRC
-=0.5\ \ast\ ((1/4)\ \ast\ inst_dim\ +\ \ (1/4)\ \ast\ polpar_dim\ +\ 
-(1/4)\ \ast\ civsoc_dim\ \ +\ (1/4)\ \ast\ polcom_dim)\ +
-0.5\ \ast\ (inst_dim\ \ast\ polpar_dim\ \ast\ civsoc_dim\ \ast\ polcom_dim)
+DRC Index = 0.5 * aDRC + 0.5 * mDRC 
+=0.5 * (1/4 * inst_dim + 1/4 * polpar_dim +1/4 * civsoc_dim + 1/4 * polcom_dim) + 0.5* (inst_dim * polpar_dim * civsoc_dim * polcom_dim)
 
 Citation: Croissant and Lott (2025) (see suggested citation in the main document)
 Years: 2000-2023
@@ -28,8 +28,7 @@ Scale: Interval, from low to high (0-1)
 Source: inst_dim polpar_dim civsoc_dim, polcom_dim
 Aggregation: The Additive Democratic Resilience Capacity Index is formed by taking the average of the average of the indices measuring the macro-institutional dimensions (inst_dim), the political actors’ dimensions (polpar_dim), the civic culture and civil society dimensions (civsoc_dim), and the political community of citizens dimensions (polcom_dim). The index is aggregated using this formula:
 
-aDRC\ =\ (1/4)\ \ast\ inst_dim\ +\ \ (1/4)\ \ast\ polpar_dim\ +\ 
-(1/4)\ \ast\ civsoc_dim\ \ +\ (1/4)\ \ast\ polcom_dim
+aDRC = 1/4 * inst_dim + 1/4 * polpar_dim +1/4 * civsoc_dim + 1/4 * polcom_dim 
 
 Citation: Croissant and Lott (2025) (see suggested citation in the main document)
 Years: 2000-2023
@@ -42,7 +41,7 @@ Scale: Interval, from low to high (0-1)
 Source: inst_dim polpar_dim civsoc_dim, polcom_dim
 Aggregation: The Multiplicative Democratic Resilience Capacity Index is formed by the four-way multiplicative interaction between the indices measuring the macro-institutional dimensions (inst_dim), the political actors’ dimensions (polpar_dim), the civic culture and civil society dimensions (civsoc_dim), and the political community of citizens dimensions (polcom_dim). The index is aggregated using this formula:
 
-mDRC\ =\ inst_dim\ \ast\ polpar_dim\ \ast\ civsoc_dim\ \ast\ polcom_dim
+mDRC = inst_dim * polpar_dim * civsoc_dim * polcom_dim
 
 Citation: Croissant and Lott (2025) (see suggested citation in the main document)
 Years: 2000-2023
